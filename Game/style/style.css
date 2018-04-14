@@ -1,0 +1,182 @@
+body {
+	background-color: black;
+}
+.hidd {
+	visibility: hidden;
+}
+.wall {
+	z-index: 4;
+	position: absolute;
+	border: 2px solid black;
+}
+.ground {
+	z-index: 1;
+	position: absolute;
+}
+.obj {
+	z-index: 2;
+	position: absolute;
+}
+.entity {
+	z-index: 3;
+	position: absolute;
+}
+/*      GROUND      */
+#tile1 {top: 40px; left: 40px;}
+#tile2 {top: 40px; left: 80px;}
+#tile3 {top: 40px; left: 120px;}
+#tile4 {top: 40px; left: 160px;}
+#tile5 {top: 40px; left: 200px;}
+#tile6 {top: 40px; left: 240px;}
+#tile7 {top: 40px; left: 280px;}
+#tile8 {top: 40px; left: 320px;}
+#tile9 {top: 80px; left: 40px;}
+#tile10 {top: 80px; left: 80px;}
+#tile11 {top: 80px; left: 120px;}
+#tile12 {top: 80px; left: 160px;}
+#tile13 {top: 80px; left: 200px;}
+#tile14 {top: 80px; left: 240px;}
+#tile15 {top: 80px; left: 280px;}
+#tile16 {top: 80px; left: 320px;}
+#tile17 {top: 120px; left: 40px;}
+#tile18 {top: 120px; left: 80px;}
+#tile19 {top: 120px; left: 120px;}
+#tile20 {top: 120px; left: 160px;}
+#tile21 {top: 120px; left: 200px;}
+#tile22 {top: 120px; left: 240px;}
+#tile23 {top: 120px; left: 280px;}
+#tile24 {top: 120px; left: 320px;}
+#tile25 {top: 160px; left: 40px;}
+#tile26 {top: 160px; left: 80px;}
+#tile27 {top: 160px; left: 120px;}
+#tile28 {top: 160px; left: 160px;}
+#tile29 {top: 160px; left: 200px;}
+#tile30 {top: 160px; left: 240px;}
+#tile31 {top: 160px; left: 280px;}
+#tile32 {top: 160px; left: 320px;}
+#tile33 {top: 200px; left: 40px;}
+#tile34 {top: 200px; left: 80px;}
+#tile35 {top: 200px; left: 120px;}
+#tile36 {top: 200px; left: 160px;}
+#tile37 {top: 200px; left: 200px;}
+#tile38 {top: 200px; left: 240px;}
+#tile39 {top: 200px; left: 280px;}
+#tile40 {top: 200px; left: 320px;}
+#tile41 {top: 240px; left: 40px;}
+#tile42 {top: 240px; left: 80px;}
+#tile43 {top: 240px; left: 120px;}
+#tile44 {top: 240px; left: 160px;}
+#tile45 {top: 240px; left: 200px;}
+#tile46 {top: 240px; left: 240px;}
+#tile47 {top: 240px; left: 280px;}
+#tile48 {top: 240px; left: 320px;}
+#tile49 {top: 280px; left: 40px;}
+#tile50 {top: 280px; left: 80px;}
+#tile51 {top: 280px; left: 120px;}
+#tile52 {top: 280px; left: 160px;}
+#tile53 {top: 280px; left: 200px;}
+#tile54 {top: 280px; left: 240px;}
+#tile55 {top: 280px; left: 280px;}
+#tile56 {top: 280px; left: 320px;}
+#tile57 {top: 320px; left: 40px;}
+#tile58 {top: 320px; left: 80px;}
+#tile59 {top: 320px; left: 120px;}
+#tile60 {top: 320px; left: 160px;}
+#tile61 {top: 320px; left: 200px;}
+#tile62 {top: 320px; left: 240px;}
+#tile63 {top: 320px; left: 280px;}
+#tile64 {top: 320px; left: 320px;}
+
+/*       WALLS TOP      */
+#wall1 {top: 0px; left: 0px;}
+#wall2 {top: 0px; left: 40px;}
+#wall3 {top: 0px; left: 80px;}
+#wall4 {top: 0px; left: 120px;}
+#wall5 {top: 0px; left: 160px;}
+#wall6 {top: 0px; left: 200px;}
+#wall7 {top: 0px; left: 240px;}
+#wall8 {top: 0px; left: 280px;}
+#wall9 {top: 0px; left: 320px;}
+#wall10 {top: 0px; left: 360px;}
+/*      WALLS LEFT      */
+#wall11 {top: 0px; left: 0px;}
+#wall12 {top: 40px; left: 0px;}
+#wall13 {top: 80px; left: 0px;}
+#wall14 {top: 120px; left: 0px;}
+#wall15 {top: 160px; left: 0px;}
+#wall16 {top: 200px; left: 0px;}
+#wall17 {top: 240px; left: 0px;}
+#wall18 {top: 280px; left: 0px;}
+#wall19 {top: 320px; left: 0px;}
+#wall20 {top: 360px; left: 0px;}
+/*       WALLLS BOTTOM        */
+#wall21 {top: 360px; left: 0px;}
+#wall22 {top: 360px; left: 40px;}
+#wall23 {top: 360px; left: 80px;}
+#wall24 {top: 360px; left: 120px;}
+#wall25 {top: 360px; left: 160px;}
+#wall26 {top: 360px; left: 200px;}
+#wall27 {top: 360px; left: 240px;}
+#wall28 {top: 360px; left: 280px;}
+#wall29 {top: 360px; left: 320px;}
+#wall30 {top: 360px; left: 360px;}
+/*        WALLS LEFT     */
+#wall31 {top: 0px; left: 360px;}
+#wall32 {top: 40px; left: 360px;}
+#wall33 {top: 80px; left: 360px;}
+#wall34 {top: 120px; left: 360px;}
+#wall35 {top: 160px; left: 360px;}
+#wall36 {top: 200px; left: 360px;}
+#wall37 {top: 240px; left: 360px;}
+#wall38 {top: 280px; left: 360px;}
+#wall39 {top: 320px; left: 360px;}
+#wall40 {top: 360px; left: 360px;}
+
+/*         LAMPS         */
+#lamp1 {top: 50px; left: 50px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

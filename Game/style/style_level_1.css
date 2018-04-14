@@ -1,0 +1,40 @@
+body {
+	background-color: black;
+	color: white;
+}
+.hidden {
+	visibility: hidden;
+}
+.tiles {
+	z-index: 1;
+	position: absolute;
+	width: 38px;
+	height: 38px;
+	border: 1px solid black;
+}
+.object {
+	z-index: 2;
+	position: absolute;
+	/*padding: 10px;
+	border: 1px solid yellow;*/
+}
+.entity {
+	z-index: 3;
+	position: absolute;
+	border: 1px solid purple;
+}
+.wall {
+	z-index: 4;
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	border: 2px solid black;
+}
+.text {
+	z-index: 5;
+	position: absolute;
+}
+.room {
+	position: absolute;
+	border: 1px solid purple;
+}
