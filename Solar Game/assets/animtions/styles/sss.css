@@ -1,0 +1,21 @@
+#animation {
+    width: 500px;
+    height: 340px;
+    background-color: lightgray;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+body {
+    width: 490px;
+    height: 330px;
+    background-color: black;
+}
+#ship {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 52.5px;
+    top: 20px;
+}

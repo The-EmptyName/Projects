@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+}
+#playground {
+    background: url("../assets/background/back-1.png");
+    width: 1800px;
+    height: 720px;
+}
+.sun {
+    width: 1200px;
+    height: 1200px;
+    position: absolute;
+    left: -900px;
+    top: -700px;
+}
+.mercury {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    cursor: pointer;
+}
+.venus {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 295px;
+    left: 290px;
+    cursor: pointer;
+}
+.earth {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 285px;
+    left: 385px;
+    cursor: pointer;
+}
+.mars {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 298px;
+    left: 490px;
+    cursor: pointer;
+}
+.jupiter {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 650px;
+    top: 200px;
+    cursor: pointer;
+}
+.saturn {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 980px;
+    top: 235px;
+    cursor: pointer;
+}
+.uranus {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 1250px;
+    top: 290px;
+    cursor: pointer;
+}
+.neptune {
+    width: 95px;
+    height: 95px;
+    position: absolute;
+    left: 1400px;
+    top: 292.5px;
+    cursor: pointer;
+}
+.info1 {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    background-color: lightblue;
+    border: 2px solid blue;
+    padding: 5px;
+}
+.planet_close {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 300px;
+    top: 120px;
+    cursor: pointer;
+}
+.info_close {
+    width: 500px;
+    height: 720px;
+    position: absolute;
+    top: 5px;
+    left: 1020px;
+    border: 1px solid white;
+    background-color: gray;
+}
+.colonize_button {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    margin: auto;
+    display: block;
+    cursor: cell;
+}
+.colonize_button_off {
+    width: 200px;
+    height: 100px;
+    background-color: #363434;
+    border: 2px solid black;
+    margin: auto;
+    display: block;
+    cursor: not-allowed;
+}
+button {
+    margin: 5px;
+    background-color: green;
+    border: 1px solid black;
+}
+#ppp {
+    padding: 5px;
+}
+.planet_closer {
+    width: 570px;
+    height: 500px;
+    position: absolute;
+    left: 300px;
+    top: 120px;
+    cursor: pointer;
+}
+.animation_sss {
+    width: 500px;
+    height: 340px;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+}
+.dest {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 210px;
+    left: 500px;
+    background-color: gray;
+    border: 2px solid lightgray;
+}
+.destp {
+    margin: auto;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
