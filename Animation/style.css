@@ -1,0 +1,196 @@
+body {
+	background: -webkit-linear-gradient(right, darkred, red, orange, gold);
+}
+#player {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+#enemy {
+	position: absolute;
+	left: 200px;
+	top: 100px;
+}
+#bullet {
+	position: absolute;
+	top: 513px;
+	left: 414px;
+	z-index: 9;
+}
+.boom {
+	z-index: 10;
+}
+#trap {
+	z-index: 10;
+}
+/*#up {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 350px;
+	left: 350px;
+}
+#down {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 450px;
+	left: 350px;
+}
+#left {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 400px;
+	left: 250px;
+}
+#right {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 400px;
+	left: 450px;
+}
+#trapbutton {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 500px;
+	left: 450px;
+}
+/*#hp {
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	top: 500px;
+	left: 250px;
+}*/
+#mine {
+	position: absolute;
+	z-index: 3;
+	top: 50px;
+}
+table, th, td {
+	border: 2px solid black;
+	z-index: 11;
+}
+.absolute {
+	position: absolute;
+}
+#ufo {
+	position: absolute;
+	z-index: 12;
+	top: 500px;
+	left: 400px;
+}
+
+.wall {
+	position: absolute;
+	z-index: 10;
+}
+#wall {
+	top: 200px;
+	left: 200px;
+}
+#wall2 {
+	top: 230px;
+	left: 200px;
+}
+#wall3 {
+	top: 260px;
+	left: 200px;
+}
+#wall4 {
+	top: 290px;
+	left: 200px;
+}
+#wall5 {
+	top: 320px;
+	left: 200px;
+}
+#wall6 {
+	top: 350px;
+	left: 200px;
+}
+#portal {
+	z-index: 15;
+	position: absolute;
+	top: 300px;
+	left: 140px;
+}
+#portal2 {
+	z-index: 15;
+	position: absolute;
+	top: 440px;
+	left: 600px;
+}
+#glitch {
+	z-index: 16;
+	position: absolute;
+	top: 100px;
+	left: 440px;
+}
+#glitch2 {
+	z-index: 16;
+	position: absolute;
+	top: 100px;
+	left: 480px;
+}
+.glitched_body {
+	background-image: url("glitch2.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
