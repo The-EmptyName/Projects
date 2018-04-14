@@ -1,0 +1,226 @@
+#playground {
+    width: 800px;
+    height: 700px;
+    background-color: #000;
+    z-index: 0;
+}
+.left {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #4D4C4C;
+    z-index: 10;
+    width: 50px;
+    height: 750px;
+}
+.down {
+    position: absolute;
+    left: 0px;
+    top: 700px;
+    background: #4D4C4C;
+    z-index: 10;
+    width: 850px;
+    height: 50px;
+}
+.right {
+    position: absolute;
+    left: 800px;
+    top: 0px;
+    background: #4D4C4C;
+    z-index: 10;
+    width: 50px;
+    height: 750px;
+}
+.up {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #4D4C4C;
+    z-index: 10;
+    width: 850px;
+    height: 25px;
+}
+.screen {
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    z-index: 8;
+    width: 750px;
+    height: 675px;
+    cursor: none;
+}
+.filter {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 15;
+    width: 1525px;
+    height: 750px;
+    background-color: rgba(0, 0, 0, 0.74);
+    pointer-events: none;
+}
+.hidden {
+    visibility: hidden;
+}
+.strt {
+    position: absolute;
+    top: 400px;
+    left: 325px;
+    width: 200px;
+    height: 150px;
+    z-index: 11;
+    cursor: none;
+}
+.controller {
+    position: absolute;
+    top: 0px;
+    left: 850px;
+    width: 675px;
+    height: 750px;
+    z-index: 10;
+    background-color: #A5A4A4;
+}
+.joy_2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 11;
+    top: 400px;
+    left: 950px;
+}
+.joy_1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 12;
+    top: 450px;
+    left: 1000px;
+}
+.a {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 11;
+    top: 450px;
+    left: 1200px;
+    transform: rotateZ(90deg);
+}
+.b {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 11;
+    top: 450px;
+    left: 1300px;
+    transform: rotateZ(90deg);
+}
+.select {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    z-index: 11;
+    top: 350px;
+    left: 1080px;
+}
+.start {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    z-index: 11;
+    top: 350px;
+    left: 1200px;
+}
+.desc {
+    z-index: 11;
+    position: absolute;
+}
+#b {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 12;
+    top: 450px;
+    left: 1200px;
+    cursor: pointer;
+}
+#a {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 12;
+    top: 450px;
+    left: 1300px;
+    cursor: pointer;
+}
+#select {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    z-index: 12;
+    top: 350px;
+    left: 1080px;
+    cursor: pointer;
+}
+#start {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    z-index: 12;
+    top: 350px;
+    left: 1200px;
+    cursor: pointer;
+}
+.menu_1 {
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    z-index: 11;
+    color: white;
+    font-family: 'VT323';
+}
+.menu_2 {
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    z-index: 11;
+    color: white;
+    font-family: 'VT323';
+}
+.menu_3 {
+    position: absolute;
+    top: 420px;
+    left: 320px;
+    width: 10px;
+    height: 10px;
+    z-index: 11;
+}
+#switch_1 {
+    background-color: rgb(83, 83, 83);
+    border: 3px solid black;
+    position: absolute;
+    left: 1125px;
+    top: 100px;
+    width: 100px;
+    height: 50px;
+    z-index: 11;
+}
+#switch_2 {
+    background-color: rgb(163, 163, 163);
+    border: 3px solid black;
+    position: absolute;
+    left: 1125px;
+    top: 100px;
+    width: 50px;
+    height: 50px;
+    z-index: 12;
+    cursor: pointer;
+}
+#player {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 550px;
+    left: 400px;
+    z-index: 9;
+    transform: scaleY(-1);
+}
