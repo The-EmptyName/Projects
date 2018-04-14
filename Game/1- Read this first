@@ -1,0 +1,8 @@
+This project is my second attempt at making games with JavaScript. It was created in May 2017.
+It contains 3 html files:
+Level-not-usable.html ---> This file was made first. Each element in it was manualy placed inside a html file.
+generator.html ---> A generator I made to speed up the level making process.
+rooms.html ---> A failed attemp to make a randomly generated levels. I gave up on it becouse I had no idea how to make it.
+game.js ---> Made using generator. Features an enemy that chases the player.
+
+THIS PROJECT WAS ABANDONED AN WILL NEVER BE REVISITED
