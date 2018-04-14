@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Fight
+		</title>
+			<script src = jquery.js></script>
+			<script src = fight.js></script>
+			<link rel="stylesheet" type="text/css" href="fight.css">
+	</head>
+	<body>
+        <header>
+            <progress min = 0 max = 100 value = 100 id = hp_bar_1 class = hp_bar></progress>
+            <progress min = 0 max = 100 value = 100 id = hp_bar_2 class = hp_bar></progress>
+            <button class = button_end onclick = end()>END</button>
+        </header>
+        <article>
+                <img src = knight.png width = 100px height = 400px id = knight_1></img>
+                <img src = knight.png width = 100px height = 400px id = knight_2></img>
+                <img src = sword.png width = 200px height = 50px id = sword_2></img>
+                <img src = sword.png width = 200px height = 50px class = sword_1 id = sword_1></img>
+        </article>
+        <footer>
+            <button class = button1 onclick = act("attack")><img src = sword.png width = 200 height = 50></img></button>
+            <button class = button1 onclick = act("defend")><img src = shield.png width = 75 height = 75></img></button>
+            <button class = button1 onclick = act("heal")><img src = cross.png width = 75 height = 75></img></button>
+            <button class = button1 onclick = "$" style = "cursor: wait"><img src = up.png width = 75 height = 75></img></button>
+        </footer>
+        <aside>
+            <button class = buttonh id = head onclick = select("head")><div>HEAD</div></button>
+            <button class = buttonb id = body onclick = select("body")><div>BODY</div></button>
+            <button class = buttona1 id = arm1 onclick = select("arm")><div>ARM</div></button>
+            <button class = buttona2 id = arm2 onclick = select("arm")><div>ARM</div></button>
+            <button class = buttonl1 id = leg1 onclick = select("leg")><div>LEG</div></button>
+            <button class = buttonl2 id = leg2 onclick = select("leg")><div>LEG</div></button>
+            <button class = buttons1 id = shield_top onclick = select("top")></button>
+            <button class = buttons2 id = shield_bottom onclick = select("bottom")></button>
+        </aside>
+        <div class = skills id = skillz>
+            <p>ATK: <p id = atk_n></p></p><button onclick = atkadd("-")>-</button><button onclick = atkadd("+")>+</button><br/>
+            <p>FORTUIDE: <p id = for_n></p></p><button onclick = foradd("-")>-</button><button onclick = foradd("+")>+</button><br/>
+            <p>INITIATIVE: <p id = ini_n></p></p><button onclick = iniadd("-")>-</button><button onclick = iniadd("+")>+</button><br/>
+            <button id = conf onclick = confirmation()>CONFIRM</button>
+        </div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

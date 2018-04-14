@@ -1,0 +1,38 @@
+							:::::Tutorial::::::
+1. Skill selection:
+	To adjust your skills, scroll down and click + and - buttons. YOU HAVE 40 POINTS
+		ATK -> each 5 ATK points add +1 to your damage.
+		FORTUIDE ( probably spelled wrong but too lazy to check ) -> each point adds +1 to your hp.
+		INITIATIVE ( same thing ) -> player with higher initia--thing gets to attack first during turns ( like 1ms first ). Makes sense when healing.
+	After adjusting points as you like, click CONFIRM button to ... confirm ...
+2. Big buttons under players:
+		Each big button has a purpose ( the up arrow doesn't count ( work in progress ( probably ) ) ).
+	2.1 The sword button ( wide one with a glorified needle on it ) is used to attack. To attack click said button and "destination"
+	    buttons ( to the east of players ). Not the blue ones doe. They're used in ( dramatic pause ) v
+	2.2 Defending ( button ) is used to defend. You can defend either top ( body and arms ) or bottom ( body and legs ). Nothing to
+	    explain here I guess...
+	2.3 Red Cross On a White Background Button is used to treat wounds. If one of "destination buttons" is other color than green,
+	    then you're wounded. The side effects are:
+		2.3.1 Head -> your aim is worse
+		2.3.2 Body -> your damage is worse
+		2.3.3 Leg -> your ini-thing is worse ( level 3 wounds - red - leave  permanent side efects -> -1 ini-thing/turn )
+		2.3.4 Arm -> you can't hold your shield for some reason, so no defending
+	    To treat your wounds click RCOWBB and wounded limb - destination button.
+	    The healing tool is a potion becouse medkits weren't a thing, bandages require dedication to make and Googleimaging
+	    "medival wound treatment" shows bloodletting which didn't even work ( and once again - dedication ).
+	2.4 The Almigthy Up-Arrow Button does ... nothing. //but if you use a bit of imagination you can do anything with it so I call
+	    it a feature.
+3. Ending turn:
+	Just click a big red END button on the top of page.
+4.Enemy:
+	At this point of development ( pre-pre early acces alpha of a beta of version 0.1 ) there are these AI types ( chosen at random ):
+		4.1 Warrior - big atk etc.
+		4.2 Tank - big hp etc.
+		4.3 Balanced - balanced etc.
+		4.4 You Will Die - send screenshot if you didn't die etc.
+	Half of them probably doesn't work or are made up ( not warrior btw ).
+5. Cheats:
+	They WILL BE featured in another .txt file made using stock Windows notepad becouse opening other apps once again require dedication.
+
+
+This guide/tutorial was made before 30% of things listed above were implemented in game.
